@@ -21,6 +21,7 @@
                 prvwd: prvwd {
                     label = "ZM_prvwd";
                     compatible = "zmk,behavior-macro";
+                    #binding-cells = <0>;
                     bindings
                         = <&macro_press &kp LCTRL>
                         , <&macro_tap &kp LEFT>
@@ -30,6 +31,7 @@
                 nxtwd: nxtwd {
                     label = "ZM_nxtwd";
                     compatible = "zmk,behavior-macro";
+                    #binding-cells = <0>;
                     bindings
                         = <&macro_press &kp LCTRL>
                         , <&macro_tap &kp RIGHT>
@@ -39,6 +41,7 @@
                 dline: dline {
                     label = "ZM_dline";
                     compatible = "zmk,behavior-macro";
+                    #binding-cells = <0>;
                     bindings
                         = <&macro_press &kp LCTRL>
                         , <&macro_tap &kp BSPC>
